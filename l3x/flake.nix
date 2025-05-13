@@ -15,13 +15,12 @@
       in {
         packages.default = pkgs.rustPlatform.buildRustPackage rec {
           pname = "l3x";
-          version = "f671735";
+          version = "2";
           src = pkgs.fetchgit {
-            url = "https://github.com/rmdettmar/l3x";
-            rev = "39c3c4e";
-            hash = "sha256-XUlrs50XG873tgfRmBXP7C7a8EwKfNCiAjO8pEatCCI=";
+            url = "https://github.com/daveman1010221/l3x";
+            hash = "sha256-Ryn8a9MVTx8sgJ9vBdSnQgy5P5uOW7kRv5I1wm7cpwI=";
           };
-          cargoHash = "sha256-nM5SgpfVpnzL3xd3mwgf92MIG023CLlAYPc0+zPQLWk=";
+          cargoHash = "sha256-h5io2B9QQr0AWe1ps2fQAs6jgpFvy+/E0lIdVnGI9ns=";
           sourceRoot = "${src.name}/l3x";
 
           nativeBuildInputs = with pkgs; [
