@@ -18,9 +18,9 @@
           version = "2";
           src = pkgs.fetchgit {
             url = "https://github.com/daveman1010221/l3x";
-            hash = "sha256-Ryn8a9MVTx8sgJ9vBdSnQgy5P5uOW7kRv5I1wm7cpwI=";
+            hash = "sha256-xiOu9GGdvWtFX04w2Rk0ozRw2LO2HE0TQ7akH7J3d7Y=";
           };
-          cargoHash = "sha256-h5io2B9QQr0AWe1ps2fQAs6jgpFvy+/E0lIdVnGI9ns=";
+          cargoHash = "sha256-tfL33xSZjV9iN40sIK2XQXlF/jSixmUFJRv7V20MGVg=";
           sourceRoot = "${src.name}/l3x";
 
           nativeBuildInputs = with pkgs; [
